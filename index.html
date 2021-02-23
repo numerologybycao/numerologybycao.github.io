@@ -36,9 +36,26 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1678463943');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3612107269');
       });
     }
+  </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <!-- Firebase Auth SDK -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAVkXNI6Rwit6zmIdWXyXDGZtPXsfIk7LQ",
+      authDomain: "numerologybycao-7ba19.firebaseapp.com",
+      projectId: "numerologybycao-7ba19",
+      storageBucket: "numerologybycao-7ba19.appspot.com",
+      messagingSenderId: "77612201",
+      appId: "1:77612201:web:3aadfea3307b850590d5b8"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
