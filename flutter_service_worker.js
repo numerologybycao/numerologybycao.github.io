@@ -22,7 +22,7 @@ const RESOURCES = {
 "assets/fonts/SVN-Amperzand.ttf": "c4cc30d9e00d475c4936981681991bb5",
 "assets/lang/en.json": "bc8883285c86690df3a9f96f2b6a8abd",
 "assets/lang/vi.json": "bc8883285c86690df3a9f96f2b6a8abd",
-"assets/NOTICES": "4bf7fb5b06a3a52d0b94e818ee54643a",
+"assets/NOTICES": "543f74a8aa5a030c1dddaa6ce6788aac",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
@@ -30,9 +30,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "5c0735f167a866363b8e2406b2d75212",
-"/": "5c0735f167a866363b8e2406b2d75212",
-"main.dart.js": "152739760e0e90dc4a432e6ea7502a33",
+"index.html": "f9a0446ea3ed76b36f4a50e1c234c212",
+"/": "f9a0446ea3ed76b36f4a50e1c234c212",
+"main.dart.js": "8b21edb9e55c72918e36423525e71808",
 "manifest.json": "56ef5909c85760fa8533c46b8023d4aa",
 "version.json": "718847d3fd4a2a41aa33101c1fb12a28"
 };
@@ -178,7 +178,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
