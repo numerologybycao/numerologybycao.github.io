@@ -19,11 +19,11 @@ const RESOURCES = {
 "assets/fonts/ChromoxomePro-ExtraLight.ttf": "d41db4cce5219d50ac2ef850af730dc0",
 "assets/fonts/JournalSansNew-Display.otf": "4d3e839d48f9c00a40d7e2c9538c1cba",
 "assets/fonts/JournalSansNew-Italic.otf": "9a950aa483235d0ab3d06036f9901440",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/fonts/SVN-Amperzand.ttf": "c4cc30d9e00d475c4936981681991bb5",
 "assets/lang/en.json": "bc8883285c86690df3a9f96f2b6a8abd",
 "assets/lang/vi.json": "bc8883285c86690df3a9f96f2b6a8abd",
-"assets/NOTICES": "c8d0e8c0778577f49c9d1b525a4e731e",
+"assets/NOTICES": "74cc3640120057bbd2c3b9737dfedb6d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
@@ -31,9 +31,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "6a84956cdbdcb0c3e18738bfa0b162f5",
-"/": "6a84956cdbdcb0c3e18738bfa0b162f5",
-"main.dart.js": "596c9ab53da0683da5b287357cdeeb86",
+"index.html": "8f198f2dcaa5319fa0df2cdc45bf2e3c",
+"/": "8f198f2dcaa5319fa0df2cdc45bf2e3c",
+"main.dart.js": "50ad22a10650c564f3485f6dde90de4e",
 "manifest.json": "56ef5909c85760fa8533c46b8023d4aa",
 "version.json": "718847d3fd4a2a41aa33101c1fb12a28"
 };
@@ -53,7 +53,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
