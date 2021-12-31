@@ -23,19 +23,23 @@ const RESOURCES = {
 "assets/fonts/SVN-Amperzand.ttf": "c4cc30d9e00d475c4936981681991bb5",
 "assets/lang/en.json": "bc8883285c86690df3a9f96f2b6a8abd",
 "assets/lang/vi.json": "bc8883285c86690df3a9f96f2b6a8abd",
-"assets/NOTICES": "74cc3640120057bbd2c3b9737dfedb6d",
+"assets/NOTICES": "03608a779ee8705dd985ca4426a489f5",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
+"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
+"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498",
+"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
+"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "0bec4f51e48a9d04272ac479d4648023",
-"/": "0bec4f51e48a9d04272ac479d4648023",
-"main.dart.js": "fbd07cb3bb9f39dc1917dc5c4e9bea85",
+"index.html": "521e899baff186c407d59042b9a8a05f",
+"/": "521e899baff186c407d59042b9a8a05f",
+"main.dart.js": "c629e32466e421dd06a55fa3e3f5e6b4",
 "manifest.json": "56ef5909c85760fa8533c46b8023d4aa",
-"version.json": "718847d3fd4a2a41aa33101c1fb12a28"
+"version.json": "b292bb4b1d6dd2000f290cb0072b14ec"
 };
 
 // The application shell files that are downloaded before a service worker can
