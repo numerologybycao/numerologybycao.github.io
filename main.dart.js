@@ -80260,7 +80260,7 @@ m8(a,b){var s,r,q,p
 for(s=a.length,r=0,q=0;q<s;++q)for(p=0;p<3;++p)if(b[p]===A.av(a[q],null))++r
 return B.c.i(r)},
 XD(a,b){var s,r,q,p
-for(s=a.length,r=0,q=0;q<s;++q)for(p=0;p<b.length;++p)if(b[p]===A.av(a[q],null))r+=A.av(a[q],null)
+for(s=a.length,r=0,q=0;q<s;++q)for(p=0;p<b.length;++p)if(b[p]===A.av(a[q],null))++r
 return r},
 Ji(a){var s,r,q,p,o,n=a.toLowerCase(),m=A.fC(n," ","")
 for(n=m.length,s=this.bZ,r=0,q=0;q<n;++q)for(p=s.ga7(s),p=p.gP(p);p.q();){o=p.gA(p)
