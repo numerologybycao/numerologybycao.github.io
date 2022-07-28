@@ -22830,7 +22830,7 @@ if((k?null:l.glA(l))==null){j.a
 j.b}k=$.x()
 k.f=a
 k.a=b
-k.e=k.r=!1
+k.e=k.r=!0
 k.c=j.a
 k.d=j.b
 k.toString
@@ -22852,9 +22852,12 @@ aqG:function aqG(a,b){this.a=a
 this.b=b},
 aqF:function aqF(){},
 b8g(a,b){return!a.a.q(0,b.a)},
-J9:function J9(a,b,c){this.c=a
-this.x=b
-this.a=c},
+J9:function J9(a,b,c,d,e){var _=this
+_.c=a
+_.e=b
+_.f=c
+_.x=d
+_.a=e},
 Nh:function Nh(a){var _=this
 _.d=$
 _.e=!1
@@ -83766,11 +83769,11 @@ this.aF(0)},
 H(a,b){var s=this,r="mediaQueryData"
 if(A.b(s.d,r).a.q(0,B.H))return B.f0
 if(!s.e)return new A.ii(A.b(s.d,r),new A.jk(new A.aE3(s),null),null)
-A.aqE(b,s.a.x,!1,!1)
+A.aqE(b,s.a.x,!0,!0)
 return s.gbx()}}
 A.aE3.prototype={
 $1(a){var s=this.a
-A.aqE(a,s.a.x,!1,!1)
+A.aqE(a,s.a.x,!0,!0)
 return s.gbx()},
 $S:17}
 A.a6N.prototype={}
@@ -92310,7 +92313,7 @@ break
 case 1:return A.M(q,r)}})
 return A.N($async$qf,r)},
 H(a,b){A.atT(A.a([B.Fw],t.gY))
-return new A.J9(new A.akO(this),new A.a5(360,690),null)}}
+return new A.J9(new A.akO(this),!0,!0,new A.a5(360,690),null)}}
 A.akO.prototype={
 $2(a,b){var s=A.aSP(null,"AveresTitleRoman",$.b_R(),B.n)
 return new A.uw(A.afL(new A.akG(this.a),A.a7p(),t.yq),A.ax(["/login",new A.akH(),"/edit",new A.akI(),"/add",new A.akJ(),"/manage",new A.akK(),"/result",new A.akL(),"/admin",new A.akM()],t.l,t.sy),new A.akN(),"Numerology",s,!1,null)},
@@ -94091,13 +94094,14 @@ A.b(b.a,f).a
 b=$.x()
 a1.P(a).f.a.b
 b.gar()
+$.x().gaA()
 h.db=1
+if($.x().gY()>$.x().gcb()){b=$.x()
+s=600*Math.min(b.gY()/A.b(b.a,f).a,b.gar())}else s=$.x().gY()
 h.cx=16*$.x().gaA()
 h.CW=14*$.x().gaA()
 b=$.x()
 Math.min(b.gY()/A.b(b.a,f).a,b.gar())
-if($.x().gY()>$.x().gcb()){b=$.x()
-s=600*Math.min(b.gY()/A.b(b.a,f).a,b.gar())}else s=$.x().gY()
 b=A.Qk(new A.t(e),2)
 a=A.dD(new A.bf(20,20))
 r=A.E(g,g,B.h,g,g,g,g,g,d,g,g,h.CW*h.db,g,B.o,g,g,!0,g,g,g,g,g,g,g,g)
